@@ -1,13 +1,12 @@
---- jinx-config	2025-01-08 18:50:32.480646320 +0530
-+++ jinx-config	2025-01-08 18:50:49.977312568 +0530
+--- jinx-config 2025-01-08 18:50:32.480646320 +0530
++++ jinx-config 2025-01-08 18:50:49.977312568 +0530
 @@ -1,10 +1,5 @@
  JINX_MAJOR_VER=0.2
- 
--export CC="clang"
--export CXX="clang++"
--export LD="ld.lld"
--export HOSTCC="clang"
--export HOSTLD="ld.lld"
+
++export CC="clang"
++export CXX="clang++"
++export LD="ld.lld"
++export HOSTCC="clang"
++export HOSTLD="ld.lld"
  export CFLAGS="-O2 -pipe -march=x86-64 -mtune=generic"
  export CXXFLAGS="${CFLAGS}"
- 
