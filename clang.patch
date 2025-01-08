@@ -1,7 +1,8 @@
 --- jinx-config 2025-01-08 18:50:32.480646320 +0530
 +++ jinx-config 2025-01-08 18:50:49.977312568 +0530
 @@ -1,5 +1,10 @@
- JINX_MAJOR_VER=0.2
+-JINX_MAJOR_VER=0.2
++JINX_MAJOR_VER=0.4
 
 +export CC="clang"
 +export CXX="clang++"
