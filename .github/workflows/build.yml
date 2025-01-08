@@ -38,6 +38,11 @@ jobs:
           wget https://raw.githubusercontent.com/mintsuki/jinx/master/jinx
           chmod +x jinx
 
+      - name: Apply Patch
+        run: |
+          cd Polaris
+          patch -p0 < ../clang.patch
+
       - name: Build userspace
         run: |
           cd Polaris
